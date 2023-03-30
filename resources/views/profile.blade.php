@@ -6,13 +6,227 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Devin's Profile</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+    {{-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet"> --}}
 </head>
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg">
+    <nav id="navbar-example2" class="navbar sticky-top bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#profiles">Profile</a>
+          </li>
+
+          <li class="nav-item dropdown" >
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Proficiency</a>
+            <ul class="dropdown-menu" >
+              <li><a class="dropdown-item" href="#skills">Skills</a></li>
+              <li><a class="dropdown-item" href="#tools">Tools</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#language">Languages</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#More_About_Me">More</a>
+          </li>
+        </ul>
+
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <section class="container-fluid" id="profiles">
+
+            <div class="container profile_text">
+                <div class="row">
+                    <h3 class="text-body-secondary">Hello, I'm</h3>
+                    <h1>Devin</h1>
+                </div>
+                <p class="">an IT enthusiast who is currently enrolled in one of the most prestigious universities in Indonesia, Bina Nusantara University. Envisioning a modern world with broader needs of information technology, I keep forcing myself to become one of the future contributors</p>
+                <a class="btn btn-primary" href="">Reach me out!</a>
+            </div>
+
+            <div class="crop">
+                <img class="img-fluid " src="{{ asset('asset/profilepic-removebg.png') }}" alt="">
+            </div>
+        </section>
+
+
+        <section class="container" id="proficiency">
+            <h1 class="center">Proficiency</h1>
+
+            <div class="container skills" id="skills">
+                <div class="skill_box">
+                    <img src="{{ asset('asset/webdev.png') }}" alt="">
+                    <h3>Web Development</h3>
+                    <p>It's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience</p>
+                </div>
+                <div class="skill_box">
+                    <img src="{{ asset('asset/webdev.png') }}" alt="">
+                    <h3>Machine Learning</h3>
+                    <p>the use and development of computer systems that are able to learn and adapt, by using algorithms and statistical models to analyze and draw inferences from patterns in data</p>
+                </div>
+                <div class="skill_box">
+                    <img src="{{ asset('asset/webdev.png') }}" alt="">
+                    <h3>Database Management</h3>
+                    <p>Data management is the practice of collecting, keeping, and using data securely, efficiently, and cost-effectively</p>
+                </div>
+            </div>
+
+            <div class="container tools" id="tools">
+                <div class="container tools_box">
+                    <img src="{{ asset('asset/html-5.png') }}" alt="" class="tools_logo">
+                    <div class="content">
+                        <div class="text">
+                            <p>HTML</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container tools_box">
+                    <img src="{{ asset('asset/css-3.png') }}" alt="" class="tools_logo">
+                    <div class="content">
+                        <div class="text">
+                            <p>CSS</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container tools_box">
+                    <img src="{{ asset('asset/js.png') }}" alt="" class="tools_logo">
+                    <div class="content">
+                        <div class="text">
+                            <p>Javascript</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container tools_box">
+                    <img src="{{ asset('asset/php.png') }}" alt="" class="tools_logo">
+                    <div class="content">
+                        <div class="text">
+                            <p>PHP</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container tools_box">
+                    <img src="{{ asset('asset/mysql.png') }}" alt="" class="tools_logo">
+                    <div class="content">
+                        <div class="text">
+                            <p>MySQL</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container tools_box">
+                    <img src="{{ asset('asset/python.png') }}" alt="" class="tools_logo">
+                    <div class="content">
+                        <div class="text">
+                            <p>Python</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container language" id="language">
+                <div class="language_box">
+                    <img src="{{ asset('asset/united-kingdom (1).png') }}" alt="">
+                    <h4>English</h4>
+                    <h5>IELTS: band 7.0</h5>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="language_box">
+                    <img src="{{ asset('asset/china.png') }}" alt="">
+                    <h4>Chinese</h4>
+                    <h5>HSK 6: 252分</h5>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+
+        </section>
+
+        <section id="org">
+
+        </section>
+
+        <section id="projects" class="container">
+            <h1 class="center">My Projects</h1>
+            <div class="project_box">
+
+            </div>
+        </section>
+
+
+
+        <section id="More_About_Me" class="container-fluid">
+            <div class="container" id="more_dalam">
+                <div class="more_box" data-aos="fade-right" data-aos-duration="1000">
+                    <h2>More About Me</h2>
+                    <div class="line"></div>
+                    <div class="social">
+                        <div class="social_top">
+                            <div class="social_box">
+                                <img src="{{ asset('asset/github.png') }}" alt="">
+                                <p>Github</p>
+                            </div>
+                            <div class="social_box">
+                                <img src="{{ asset('asset/linkedin.png') }}" alt="">
+                                <p>LinkedIn</p>
+                            </div>
+                            <div class="social_box">
+                                <img src="{{ asset('asset/instagram.png') }}" alt="">
+                                <p>Instagram</p>
+                            </div>
+                        </div>
+
+                        <div class="social_bottom">
+                            <p>devinwong278@gmail.com</p>
+                            <a class="btn btn-secondary" href="">Say hello!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="biru_box"></div>
+
+
+        </section>
+      </div>
+
+    {{-- <nav class="navbar sticky-top navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Devin</a>
 
@@ -21,7 +235,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
 
             <li class="nav-item"><a class="nav-link scrollto active" aria-current="page" href="#profiles">Profile</a></li>
             <li class="nav-item dropdown">
@@ -31,7 +245,6 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Skills</a></li>
                   <li><a class="dropdown-item" href="#">Tools</a></li>
-                  {{-- <li><hr class="dropdown-divider"></li> --}}
                   <li><a class="dropdown-item" href="#">Foreign Language</a></li>
                 </ul>
               </li>
@@ -53,82 +266,51 @@
               </li>
 
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+
           </div>
         </div>
-      </nav>
+      </nav> --}}
 
-    <section class="container" id="profiles">
 
-        <div class="container profile_text">
-            <div class="row">
-                <h3 class="text-body-secondary">Hello, I'm</h3>
-                <h1>Devin</h1>
+
+    <footer>
+
+
+
+        <div class="footer_text">
+            <div class="footer_box">
+                <h3>Contact Me</h3>
+                <p>Address</p>
+                <p>Phone</p>
+                <p>Email</p>
+                <p>Instagram</p>
             </div>
-            <p class="">an IT enthusiast who is currently enrolled in one of the most prestigious universities in Indonesia, Bina Nusantara University. Envisioning a modern world with broader needs of information technology, I keep forcing myself to become one of the future contributors</p>
-            <a class="btn btn-primary" href="">Reach me out!</a>
-        </div>
 
-        <img class="banner_img" src="{{ asset('asset/profilepic-removebg.png') }}" alt="">
-    </section>
-
-
-    <section class="container" id="proficiency">
-        <h1 class="center">Proficiency</h1>
-
-        <div class="container skills">
-            <div class="skill_box">
-                <img src="{{ asset('asset/webdev.png') }}" alt="">
-                <h3>Web Development</h3>
-                <p>It's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience</p>
-            </div>
-            <div class="skill_box">
-                <img src="{{ asset('asset/webdev.png') }}" alt="">
-                <h3>Machine Learning</h3>
-                <p>the use and development of computer systems that are able to learn and adapt, by using algorithms and statistical models to analyze and draw inferences from patterns in data</p>
-            </div>
-            <div class="skill_box">
-                <img src="{{ asset('asset/webdev.png') }}" alt="">
-                <h3>Database Management</h3>
-                <p>Data management is the practice of collecting, keeping, and using data securely, efficiently, and cost-effectively</p>
+            <div class="footer_box">
+                <h3>Info</h3>
+                <p>Profile</p>
+                <p>Proficiencies</p>
+                <p>Experience</p>
+                <p>Education</p>
+                <p>More about me</p>
             </div>
         </div>
 
-        <div class="container ">
-            <div class="container tools_box">
-                <img src="{{ asset('asset/html-5.png') }}" alt="" class="tools_logo">
-                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar text-bg-warning" style="width: 75%">75%</div>
-                </div>
-            </div>
+        <div class="baseline"></div>
+
+        <div class="footer_down">
+            <p>© 2023 Devin | All Rights Reserved</p>
         </div>
-    </section>
+    </footer>
 
-    <section id="education">
-        
-    </section>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="node_modules/aos/dist/aos.js"></script>
 
-    <section id="org">
-
-    </section>
-
-    <section id="projects">
-
-    </section>
-
-
-
-    <section id="contact">
-
-
-
-    </section>
 
 
 </body>
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/profile.js"></script>
+<script>
+    AOS.init();
+</script>
 </html>
