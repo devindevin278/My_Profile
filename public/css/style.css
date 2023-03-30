@@ -95,9 +95,10 @@ body {
     background-color: palegoldenrod;
 }
 
-.crop img {
-
+.img-fluid {
+    /* box-shadow: 1px 1px 1px #0B2447; */
 }
+
 
 #proficiency.container {
     /* height: 500px; */
@@ -208,7 +209,34 @@ body {
     backgorund
 } */
 
+#education {
+    margin-top: 100px;
+}
 
+.educations {
+    width: 90%;
+    margin: auto;
+}
+
+.edu_box {
+    display: flex;
+}
+
+.edu_crop {
+    width: 30%;
+    overflow: hidden;
+    height: 50%;
+    margin: auto;
+    box-shadow: 10px 10px 10px 0px #888888;;
+}
+
+.edu_box img {
+    width: 100%;
+}
+
+.edu_text {
+    margin: auto;
+}
 
 
 
