@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Sora', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #85aebc ;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.navbar  {
+    background-color: #85aebc ;
+
+}
+
+.navbar .nav-item {
+    color: white;
+}
+
+#profiles {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: #A5D7E8; */
+    /* height: 300px; */
+    /* margin-top: 10; */
+}
+
+.profile_text h3 {
+    font-weight: 400;
+    /* font-size: 10vw; */
+}
+.profile_text h1 {
+    font-weight: 700;
+    color: white;
+}
+
+ .btn-primary {
+    background-color: #19376D;
+}
+
+.banner_img {
+    width: 50%;
+}
+
+
+
+#proficiency, #org {
+    /* height: 500px; */
+    background-color: #e1e9ec;
+    box-shadow: 10px 10px 10px 0px #888888;
+    padding: 30px;
+
+}
+
+.skills {
+    display: flex;
+}
+
+.skill_box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.skill_box h3 {
+    font-size: 20px;
+}
+
+.skill_box img {
+    width: 10%;
+}
+
+#education, #projects {
+    height: 500px;
+}
+
+/* #contact {
+    backgorund
+} */
+
+
+
+.profile_text {
+    height: 100%;
+    /* justify-content: center; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-item .nav-link.active {
+    color: #0B2447;
+}

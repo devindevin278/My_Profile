@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Devin's Profile</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/profile.css">
-
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Devin'</a>
+          <a class="navbar-brand" href="#">Devin</a>
 
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,14 +23,9 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home">Profile</a>
-              </li>
-
-
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item"><a class="nav-link scrollto active" aria-current="page" href="#profiles">Profile</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link scrollto dropdown-toggle" href="#proficiency" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Proficiencies
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -40,19 +37,19 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#org">Organizational Experience</a>
+                <a class="nav-link scrollto" href="#org">Organizational Experience</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
+                <a class="nav-link scrollto" href="#education">Education</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link scrollto" href="#projects">Projects</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Reach me out</a>
+                <a class="nav-link scrollto" href="#contact">Reach me out</a>
               </li>
 
             </ul>
@@ -64,12 +61,48 @@
         </div>
       </nav>
 
-    <section id="Profiles">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequuntur ut reiciendis minus veniam laudantium. Cumque impedit quia dignissimos reprehenderit temporibus ipsa cum animi ratione nesciunt, exercitationem officia eos assumenda.</p>
+    <section class="container" id="profiles">
+
+        <div class="container profile_text">
+            <div class="row">
+                <h3 class="text-body-secondary">Hello, I'm</h3>
+                <h1>Devin</h1>
+            </div>
+            <p class="">an IT enthusiast who is currently enrolled in one of the most prestigious universities in Indonesia, Bina Nusantara University. Envisioning a modern world with broader needs of information technology, I keep forcing myself to become one of the future contributors</p>
+            <a class="btn btn-primary" href="">Reach me out!</a>
+        </div>
+
+        <img class="banner_img" src="{{ asset('asset/profilepic-removebg.png') }}" alt="">
     </section>
 
-    <section id="prof">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores veniam ea nostrum eos vel, natus ipsam iusto ipsum, rem magni suscipit totam quibusdam quas magnam voluptatibus eaque sint tenetur cumque recusandae deserunt quisquam veritatis corrupti officiis minima! Repellat odio architecto porro cupiditate ut sit velit aliquam impedit ipsum asperiores dolore, optio dicta, beatae numquam molestias error nam corporis modi ratione sint qui animi rerum a ullam. Perspiciatis officiis ducimus similique animi mollitia, placeat minus natus ipsam ipsum delectus nobis! Quod, rem est optio facilis suscipit, quas veritatis accusantium repellendus ab doloribus ratione incidunt in, ducimus vitae soluta asperiores dolorem deserunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsa quae unde nobis laudantium impedit voluptatibus eligendi iusto quos praesentium deleniti soluta amet nam aperiam expedita minus, recusandae ut exercitationem suscipit quo. Omnis reprehenderit, fugit, hic maxime eligendi libero vel quod dicta, dolor fuga eum id deleniti ex aut. Ducimus optio quasi quo sapiente ut non provident neque consectetur aspernatur aliquam quae, voluptatum, ex voluptatem eveniet officiis nostrum vero amet aut ad odit quisquam. Magni amet molestiae commodi. Voluptas exercitationem harum aliquid quisquam quidem eaque. Repellendus numquam nesciunt obcaecati facilis, cupiditate quibusdam voluptatum fugiat delectus odio sunt! Pariatur, deleniti numquam?
+
+    <section class="container" id="proficiency">
+        <h1 class="center">Proficiency</h1>
+
+        <div class="container skills">
+            <div class="skill_box">
+                <img src="{{ asset('asset/webdev.png') }}" alt="">
+                <h3>Web Development</h3>
+                <p>It's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience</p>
+            </div>
+            <div class="skill_box">
+                <img src="{{ asset('asset/webdev.png') }}" alt="">
+                <h3>Machine Learning</h3>
+                <p>the use and development of computer systems that are able to learn and adapt, by using algorithms and statistical models to analyze and draw inferences from patterns in data</p>
+            </div>
+            <div class="skill_box">
+                <img src="{{ asset('asset/webdev.png') }}" alt="">
+                <h3>Database Management</h3>
+                <p>Data management is the practice of collecting, keeping, and using data securely, efficiently, and cost-effectively</p>
+            </div>
+        </div>
+
+        <div class="container tools">
+            <div class="tools_box">
+                <img src="{{ asset('asset/html-5.png') }}" alt="" class="tools_logo">
+                
+            </div>
+        </div>
     </section>
 
     <section id="education">
@@ -84,11 +117,16 @@
 
     </section>
 
+
+
     <section id="contact">
+
+
 
     </section>
 
 
 </body>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/profile.js"></script>
 </html>
