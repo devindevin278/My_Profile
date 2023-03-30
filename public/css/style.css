@@ -79,6 +79,18 @@ body {
     width: 10%;
 }
 
+.tools {
+
+}
+
+.tools_box {
+    display: flex;
+}
+
+.tools_box img {
+    width: 10%;
+}
+
 #education, #projects {
     height: 500px;
 }
