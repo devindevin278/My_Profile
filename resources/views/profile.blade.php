@@ -61,7 +61,7 @@
         </section>
 
 
-        <section class="container" id="proficiency">
+        <section class="container" id="proficiency" data-aos="fade-up" data-aos-duration="2000">
             <h1 class="center">Proficiency</h1>
 
             <div class="container skills" id="skills">
@@ -483,7 +483,7 @@
                     <img src="{{ asset('asset/footer_profilepic2.png') }}" alt="">
                 </div>
 
-                <p>Envisioning a modern world with broader needs of information technology, I keep forcing myself to become one of the future contributors. </p>
+                <p>"Envisioning a modern world with broader needs of information technology, I keep forcing myself to become one of the future contributors."</p>
             </div>
 
 

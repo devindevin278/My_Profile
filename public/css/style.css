@@ -253,8 +253,8 @@ a:link {
 
 .line {
     height: 100;
-    width: 1px;
-    background-color: #0B2447;
+    width: 3px;
+    background-color: #404f64;
 }
 
 
@@ -639,7 +639,6 @@ span.carousel-control-next-icon {
     transform: skew(-20deg);
     width: 80%;
     margin: auto;
-
 }
 
 .footer_text .circle {
@@ -650,6 +649,7 @@ span.carousel-control-next-icon {
     border: 5px ridge #A5D7E8;
     /* box-shadow: 5px 5px 5px 5px #888888; */
     margin: auto;
+    margin-left: 230px;
     margin-bottom: 30px;
     /* margin-left: 20px; */
     transform: skew(-20deg);
