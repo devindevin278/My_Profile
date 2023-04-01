@@ -64,18 +64,18 @@
             <h1 class="center">Proficiency</h1>
 
             <div class="container skills" id="skills">
-                <div class="skill_box">
+                <div class="skill_box" data-aos="zoom-in-right" data-aos-duration="1500">
                     <img src="{{ asset('asset/webdev.png') }}" alt="">
                     <h3>Web Development</h3>
                     <p>It's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience</p>
                 </div>
-                <div class="skill_box">
-                    <img src="{{ asset('asset/webdev.png') }}" alt="">
+                <div class="skill_box" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <img src="{{ asset('asset/machine-learning.png') }}" alt="">
                     <h3>Machine Learning</h3>
                     <p>the use and development of computer systems that are able to learn and adapt, by using algorithms and statistical models to analyze and draw inferences from patterns in data</p>
                 </div>
-                <div class="skill_box">
-                    <img src="{{ asset('asset/webdev.png') }}" alt="">
+                <div class="skill_box" data-aos="zoom-in-left" data-aos-duration="1500">
+                    <img src="{{ asset('asset/database-storage.png') }}" alt="">
                     <h3>Database Management</h3>
                     <p>Data management is the practice of collecting, keeping, and using data securely, efficiently, and cost-effectively</p>
                 </div>
@@ -87,10 +87,10 @@
                     <div class="content">
                         <div class="text">
                             <p>HTML</p>
-                            <p>80%</p>
+                            <p>85%</p>
                         </div>
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 80%"></div>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="0" style="width: 85%"></div>
                         </div>
                     </div>
                 </div>
@@ -103,31 +103,7 @@
                             <p>80%</p>
                         </div>
                         <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 80%"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container tools_box">
-                    <img src="{{ asset('asset/js.png') }}" alt="" class="tools_logo">
-                    <div class="content">
-                        <div class="text">
-                            <p>Javascript</p>
-                            <p>80%</p>
-                        </div>
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 80%"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container tools_box">
-                    <img src="{{ asset('asset/php.png') }}" alt="" class="tools_logo">
-                    <div class="content">
-                        <div class="text">
-                            <p>PHP</p>
-                            <p>80%</p>
-                        </div>
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 80%"></div>
+                            <div class="progress-bar" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="0" style="width: 80%"></div>
                         </div>
                     </div>
                 </div>
@@ -139,7 +115,31 @@
                             <p>80%</p>
                         </div>
                         <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 80%"></div>
+                            <div class="progress-bar" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="0" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container tools_box">
+                    <img src="{{ asset('asset/js.png') }}" alt="" class="tools_logo">
+                    <div class="content">
+                        <div class="text">
+                            <p>Javascript</p>
+                            <p>75%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="0" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container tools_box">
+                    <img src="{{ asset('asset/php.png') }}" alt="" class="tools_logo">
+                    <div class="content">
+                        <div class="text">
+                            <p>PHP</p>
+                            <p>75%</p>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="0" style="width: 75%"></div>
                         </div>
                     </div>
                 </div>
@@ -148,14 +148,13 @@
                     <div class="content">
                         <div class="text">
                             <p>Python</p>
-                            <p>80%</p>
+                            <p>70%</p>
                         </div>
-                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 80%"></div>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" data-aos="fade-right" data-aos-duration="1000"  data-aos-offset="0" style="width: 70%"></div>
                         </div>
                     </div>
                 </div>
-
             </div>
 
             <div class="container language" id="language">
@@ -187,14 +186,14 @@
                         <img src="{{ asset('asset/yaohua.jpg') }}" alt="">
                     </div>
                 </div>
-                
+
                 <div class="edu_box">
                     <div class="edu_crop">
                         <img src="{{ asset('asset/gembalabaik.jpg') }}" alt="">
                     </div>
                     <div class="edu_text">
                         <h3>Gembala Baik School</h3>
-                        <h5>Primary & Secondary School | Jul 2014 – Jun 2017</h5>
+                        <h5>Primary & Secondary School | Jul 2008 – Jun 2017</h5>
                     </div>
                 </div>
             </div>
@@ -205,47 +204,113 @@
         </section>
 
         <section id="projects" class="container">
-            <h1 class="center">My Projects</h1>
-            <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            <div class="project_box">
+            {{-- <h1 class="center">My Projects</h1> --}}
 
+            <div class="project">
+                <h1 class="title">My Projects</h1>
+
+                <!-- Button trigger modal -->
+                <button class="project_box" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                    <img src="{{ asset('asset/project_poorbye2-removebg.png') }}" alt="">
+                    <h5>Poorbye</h5>
+                </button>
+                <button class="project_box" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                    <img src="{{ asset('asset/jantung-removebg.png') }}" alt="">
+                    <h5>Heart Disease Predictor</h5>
+                </button>
+                <button class="project_box" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                    <img src="{{ asset('asset/project_heroin2-removebg.png') }}" alt="">
+                    <h5>HeroIn</h5>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Poorbye</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            {{-- carousel start--}}
+                            <div class="crop">
+                                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                    <div class="carousel-item  active" data-bs-interval="3000">
+                                        <img src="{{ asset('asset/project_poorbye1.jpeg') }}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="{{ asset('asset/project_poorbye2.jpeg') }}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="{{ asset('asset/project_poorbye3.jpeg') }}" class="d-block w-100" alt="...">
+                                    </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            {{-- carousel end --}}
+
+                            <p>Poorbye is a money management web application which created by the team called J4song Dynasty. Our aim was to make any individual achieve financial stability through our prepared courses as well as money management calculator.Our first milestone was when we made it to our conference - <b>KomPoor</b> </p>
+                            <p>Check more on <a href="https://poorbye.000webhostapp.com/">Poorbye</a></p>
+                        </div>
+
+                    </div>
+                    </div>
+                </div>
+
+                 <!-- Modal -->
+                 <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Heart Disease Predictor</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            {{-- carousel start--}}
+                            <div class="crop">
+                                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                    <div class="carousel-item  active" data-bs-interval="3000">
+                                        <img src="{{ asset('asset/project_ml1.jpeg') }}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="{{ asset('asset/project_ml2.jpeg') }}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="{{ asset('asset/project_ml3.jpeg') }}" class="d-block w-100" alt="...">
+                                    </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            {{-- carousel end --}}
+
+                            <p></p>
+                        </div>
+
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="big">
+                <img src="{{ asset('asset/projects_pic.png') }}" alt="">
             </div>
         </section>
 
@@ -253,13 +318,13 @@
 
         <section id="More_About_Me" class="container-fluid">
             <div class="container" id="more_dalam">
-                <div class="more_box" data-aos="fade-right" data-aos-duration="1000">
+                <div class="more_box" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="700">
                     <h2>More About Me</h2>
                     <div class="line"></div>
                     <div class="social">
                         <div class="social_top">
                             <div class="social_box">
-                                <img src="{{ asset('asset/github.png') }}" alt="">
+                                <img src="{{ asset("asset/github.png") }}" alt="">
                                 <p>Github</p>
                             </div>
                             <div class="social_box">
@@ -337,6 +402,9 @@
 
 
         <div class="footer_text">
+
+            <img src="{{ asset('asset/footer_profilepic.png') }}" alt="">
+
             <div class="footer_box">
                 <h3>Contact Me</h3>
                 <p>Address</p>

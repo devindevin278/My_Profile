@@ -126,8 +126,11 @@ body {
     padding: 10px;
 }
 
-.skill_box:hover {
+
+.container.skills .skill_box:hover {
     background-color: #A5D7E8;
+    transition: 0.1s;
+    transform: scale(1.05);
 }
 
 .skill_box h3 {
@@ -201,9 +204,9 @@ body {
 }
 
 
-#education, #projects {
+/* #education, #projects {
     height: 500px;
-}
+} */
 
 /* #contact {
     backgorund
@@ -211,15 +214,18 @@ body {
 
 #education {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .educations {
     width: 90%;
     margin: auto;
+    margin-top: 100px;
 }
 
 .edu_box {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .edu_crop {
@@ -227,11 +233,16 @@ body {
     overflow: hidden;
     height: 50%;
     margin: auto;
-    box-shadow: 10px 10px 10px 0px #888888;;
+    box-shadow: 10px 10px 10px 0px #888888;
 }
 
 .edu_box img {
     width: 100%;
+}
+
+.edu_box img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .edu_text {
@@ -246,6 +257,83 @@ body {
 
 #projects {
     background-color: #A5D7E8;
+    display: flex;
+    padding: 100px 50px 150px 50px;
+}
+
+.project {
+    /* background-color: #576CBC; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project  h1.title {
+    background-color: #19376D;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -120px;
+    box-shadow: 5px 5px 5px 0px #888888;
+
+}
+
+#projects .big {
+    margin-left: auto;
+    width: 55%;
+}
+
+#projects .big img {
+    width: 100%;
+}
+
+#projects button.project_box {
+    display: flex;
+    background-color: #b3ecff;
+    box-shadow: 5px 5px 10px 1px #888888;
+    /* opacity: 80%; */
+    border: none;
+    width: 100%;
+    margin: auto;
+    height: 25%;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#projects button.project_box:hover {
+    /* opacity: 80%; */
+    background-color: #cff5ff;
+    box-shadow: 5px 5px 15px 5px #888888;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+#projects button.project_box h5 {
+    color: #19376D;
+    align-items: center;
+    font-weight: 700;
+    /* background-color: #19376D; */
+}
+
+#projects button.project_box img {
+    width: 15%;
+}
+
+.modal-body .crop {
+    width: 75%;
+    margin: auto;
+    /* height: 100%; */
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+
+.carousel {
+    width: 100%;
+    /* height: 100%; */
 }
 
 #More_About_Me {
@@ -257,7 +345,7 @@ body {
 }
 
 #more_dalam {
-    margin-top: -200px;
+    /* margin-top: -200px; */
     height: 400px;
     background-color: #A5D7E8;
 }
@@ -346,6 +434,10 @@ body {
 
 .footer_text {
     display: flex;
+}
+
+.footer_text img {
+    margin: auto;
 }
 
 .footer_box {
