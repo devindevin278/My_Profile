@@ -8,33 +8,33 @@ In the process of making this website, I implement tools like laravel and bootst
 
 # What the Website looks like
 
-Here is what the website looks like, which I breakdown into some section based on the information. For full page, go to the bottom of this Readme file.
+Here is what the website looks like, which I breakdown into several sections based on the information. **For full page, go to the bottom of this Readme file.**
 
-Header:
+**Header**:
 ![Header Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/1.%20header.png)
 
-Proficiency:
+**Proficiency**:
 ![Proficiency Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/2.%20Proficiency.png)
 
-Languages:
+**Languages**:
 ![Languages Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/3.%20Language.png)
 
-Education:
+**Education**:
 ![Education Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/4.%20Education.png)
 
-Projects:
+**Projects**:
 ![Projects Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/5.%20Projects.png)
 
-Projects Detail:
+**Projects Detail**:
 ![Projects Detail Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/6.%20Projects_detail.png)
 
-More:
+**More**:
 ![More Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/7.%20More.png)
 
-Footer:
+**Footer**:
 ![Footer Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/8.%20Footer.png)
 
-Full Page:
+**Full Page**:
 ![Full Page](https://github.com/devinwong278/My_Profile/blob/main/documentation/full%20page.png)
 
 #Thanks for your attention!
