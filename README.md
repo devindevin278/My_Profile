@@ -8,7 +8,7 @@ In the process of making this website, I implement tools like laravel and bootst
 
 # What the Website looks like
 
-Here is what the website looks like, which I breakdown into several sections based on the information. **For full page, go to the bottom of this Readme file.**
+Here is what the website looks like, which I breakdown into several sections based on the information. **For full page, [click here!](#full-page)**
 
 **Header**:
 ![Header Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/1.%20header.png)
@@ -34,7 +34,7 @@ Here is what the website looks like, which I breakdown into several sections bas
 **Footer**:
 ![Footer Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/8.%20Footer.png)
 
-**Full Page**:
+# Full Page:
 ![Full Page](https://github.com/devinwong278/My_Profile/blob/main/documentation/full%20page.png)
 
 #Thanks for your attention!
