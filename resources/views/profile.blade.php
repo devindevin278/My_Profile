@@ -474,8 +474,6 @@
 
     <footer>
 
-
-
         <div class="footer_text">
 
             <div class="footer_left">
@@ -516,6 +514,8 @@
             <p>© 2023 Devin | All Rights Reserved</p>
         </div>
     </footer>
+
+    {{-- @include('welcome') --}}
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/profile.js"></script>
