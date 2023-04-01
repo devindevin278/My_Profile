@@ -15,14 +15,14 @@
 </head>
 <body>
     <nav id="navbar-example2" class="navbar sticky-top bg-body-tertiary px-3 mb-3">
-        <a class="navbar-brand" href="#">Devin</a>
+        <a class="navbar-brand" href="#">Devin's</a>
         <ul class="nav nav-pills">
           <li class="nav-item">
             <a class="nav-link" href="#profiles">Profile</a>
           </li>
 
           <li class="nav-item dropdown" >
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Proficiency</a>
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#proficiency" role="button" aria-expanded="false">Proficiency</a>
             <ul class="dropdown-menu" >
               <li><a class="dropdown-item" href="#skills">Skills</a></li>
               <li><a class="dropdown-item" href="#tools">Tools</a></li>
@@ -42,6 +42,7 @@
         </ul>
 
       </nav>
+
       <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
         <section class="container-fluid" id="profiles">
 
@@ -50,8 +51,8 @@
                     <h3 class="text-body-secondary">Hello, I'm</h3>
                     <h1>Devin</h1>
                 </div>
-                <p class="">an IT enthusiast who is currently enrolled in one of the most prestigious universities in Indonesia, Bina Nusantara University. Envisioning a modern world with broader needs of information technology, I keep forcing myself to become one of the future contributors</p>
-                <a class="btn btn-primary" href="">Reach me out!</a>
+                <p class="">an IT enthusiast who is currently enrolled in one of the most prestigious universities in Indonesia, <b>Bina Nusantara University</b>.</p>
+                <a class="btn btn-primary" href="#More_About_Me">Reach me out!</a>
             </div>
 
             <div class="crop">
@@ -177,25 +178,46 @@
         <section id="education">
             <h1 class="center">My Education Background</h1>
             <div class="educations">
+
                 <div class="edu_box">
-                    <div class="edu_text">
-                        <h3>Shenzhen Yaohua Experimental School</h3>
-                        <h5>High School | Sep 2017 – Jul 2020</h5>
+                    <div class="edu_text" id="yaohua" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="edu_textisi">
+                            <h3>Shenzhen Yaohua Experimental School</h3>
+                            <h5>High School | Sep 2017 – Jul 2020</h5>
+                        </div>
                     </div>
-                    <div class="edu_crop">
-                        <img src="{{ asset('asset/yaohua.jpg') }}" alt="">
+                    <div class="gap"></div>
+                    <div class="edu_crop" id="gembalabaik_pic" data-aos="fade-left" data-aos-duration="2000">
+                        <img src="{{ asset('asset/gembalabaik.jpg') }}" alt="">
+                    </div>
+                </div>
+
+                <div class="line_box">
+                    <div class="line" data-aos="fade-down">
+                        <div class="circle" data-aos="flip-right" data-aos-duration="1500">
+                            <img src="{{ asset('asset/yaohua_logo.jpg') }}" alt="">
+                        </div>
+                        <div class="gap"></div>
+                        <div class="circle" data-aos="flip-right" data-aos-duration="1500">
+                            <img src="{{ asset('asset/gembalabaik_logo.jpg') }}" alt="">
+                        </div>
                     </div>
                 </div>
 
                 <div class="edu_box">
-                    <div class="edu_crop">
-                        <img src="{{ asset('asset/gembalabaik.jpg') }}" alt="">
+
+                    <div class="edu_crop" id="yaohua_pic" data-aos="fade-right" data-aos-duration="2000">
+                        <img src="{{ asset('asset/yaohua.jpg') }}" alt="">
                     </div>
-                    <div class="edu_text">
-                        <h3>Gembala Baik School</h3>
-                        <h5>Primary & Secondary School | Jul 2008 – Jun 2017</h5>
+                    <div class="gap"></div>
+                    <div class="edu_text" id="gembalabaik" data-aos="fade-right" data-aos-duration="2000">
+                        <div class="edu_textisi">
+                            <h3>Gembala Baik School</h3>
+                            <h5>Primary & Secondary School | Jul 2008 – Jun 2017</h5>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
@@ -210,15 +232,15 @@
                 <h1 class="title">My Projects</h1>
 
                 <!-- Button trigger modal -->
-                <button class="project_box" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                <button data-aos="fade-left" data-aos-duration="2000" class="project_box" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
                     <img src="{{ asset('asset/project_poorbye2-removebg.png') }}" alt="">
                     <h5>Poorbye</h5>
                 </button>
-                <button class="project_box" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                <button data-aos="fade-left" data-aos-duration="2000" class="project_box" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
                     <img src="{{ asset('asset/jantung-removebg.png') }}" alt="">
                     <h5>Heart Disease Predictor</h5>
                 </button>
-                <button class="project_box" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                <button data-aos="fade-left" data-aos-duration="2000" data-aos-offset="200" class="project_box" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
                     <img src="{{ asset('asset/project_heroin2-removebg.png') }}" alt="">
                     <h5>HeroIn</h5>
                 </button>
@@ -228,13 +250,14 @@
                     <div class="modal-dialog modal-lg modal-dialog-scrollable">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Poorbye</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <img src="{{ asset('asset/project_poorbye2-removebg.png') }}" alt="">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Poorbye</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             {{-- carousel start--}}
                             <div class="crop">
-                                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                <div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                     <div class="carousel-item  active" data-bs-interval="3000">
                                         <img src="{{ asset('asset/project_poorbye1.jpeg') }}" class="d-block w-100" alt="...">
@@ -245,14 +268,17 @@
                                     <div class="carousel-item" data-bs-interval="3000">
                                         <img src="{{ asset('asset/project_poorbye3.jpeg') }}" class="d-block w-100" alt="...">
                                     </div>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="{{ asset('asset/project_pic_crop.jpeg') }}" class="d-block w-100" alt="...">
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
                             </div>
@@ -271,13 +297,14 @@
                     <div class="modal-dialog modal-lg modal-dialog-scrollable">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Heart Disease Predictor</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <img src="{{ asset('asset/jantung-removebg.png') }}" alt="">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Heart Disease Predictor</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             {{-- carousel start--}}
                             <div class="crop">
-                                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                     <div class="carousel-item  active" data-bs-interval="3000">
                                         <img src="{{ asset('asset/project_ml1.jpeg') }}" class="d-block w-100" alt="...">
@@ -289,11 +316,11 @@
                                         <img src="{{ asset('asset/project_ml3.jpeg') }}" class="d-block w-100" alt="...">
                                     </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                     </button>
@@ -301,7 +328,55 @@
                             </div>
                             {{-- carousel end --}}
 
-                            <p></p>
+                            <p>HeartHeart disease is a major public health concern affecting millions of people worldwide. It refers to a range of conditions that affect the heart, including coronary artery disease, heart failure, arrhythmias, and valve disorders.
+                                The goal of heart disease prediction is to enable early intervention and targeted prevention strategies, such as lifestyle modifications, medication, and surgery, to reduce the risk of heart disease and its associated complications.
+                            </p>
+                        </div>
+
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <img src="{{ asset('asset/project_heroin2-removebg.png') }}" alt="">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">HeroIn</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            {{-- carousel start--}}
+                            <div class="crop">
+                                <div id="carouselExampleAutoplaying3" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+                                    <div class="carousel-inner">
+                                    <div class="carousel-item  active" data-bs-interval="3000">
+                                        <img src="{{ asset('asset/project_heroin1.png') }}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="{{ asset('asset/project_heroin2.png') }}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="{{ asset('asset/project_heroin3.jpeg') }}" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="{{ asset('asset/project_heroin4.jpeg') }}" class="d-block w-100" alt="...">
+                                    </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            {{-- carousel end --}}
+
+                            <p>Memorizing the face of Heroes could be a challenging task to do, especially for nowadays generation, who tend to forget the contribution of Heroes who died for this country. Therefore, HeroIn was created in order to solve this issue, by helping people to easily recognize Heroes, who deserve to be known.</p>
                         </div>
 
                     </div>
@@ -309,7 +384,7 @@
                 </div>
 
             </div>
-            <div class="big">
+            <div class="big" data-aos="zoom-in" data-aos-duration="2000">
                 <img src="{{ asset('asset/projects_pic.png') }}" alt="">
             </div>
         </section>
@@ -318,28 +393,28 @@
 
         <section id="More_About_Me" class="container-fluid">
             <div class="container" id="more_dalam">
-                <div class="more_box" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="700">
+                <div class="more_box" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="600">
                     <h2>More About Me</h2>
                     <div class="line"></div>
                     <div class="social">
                         <div class="social_top">
-                            <div class="social_box">
+                            <a href="https://github.com/devinwong278/ " target="_blank" class="social_box">
                                 <img src="{{ asset("asset/github.png") }}" alt="">
                                 <p>Github</p>
-                            </div>
-                            <div class="social_box">
+                            </a>
+                            <a href="https://www.linkedin.com/in/devin-wong-1602991a1/" target="_blank" class="social_box">
                                 <img src="{{ asset('asset/linkedin.png') }}" alt="">
                                 <p>LinkedIn</p>
-                            </div>
-                            <div class="social_box">
+                            </a>
+                            <a href="https://www.instagram.com/devinwong27/" class="social_box" target="_blank">
                                 <img src="{{ asset('asset/instagram.png') }}" alt="">
                                 <p>Instagram</p>
-                            </div>
+                            </a>
                         </div>
 
                         <div class="social_bottom">
                             <p>devinwong278@gmail.com</p>
-                            <a class="btn btn-secondary" href="">Say hello!</a>
+                            <a class="btn btn-secondary" href="mailto: devinwong278@gmail.com">Say hello!</a>
                         </div>
                     </div>
                 </div>
@@ -403,23 +478,35 @@
 
         <div class="footer_text">
 
-            <img src="{{ asset('asset/footer_profilepic.png') }}" alt="">
+            <div class="footer_left">
+                <div class="circle">
+                    <img src="{{ asset('asset/footer_profilepic2.png') }}" alt="">
+                </div>
+
+                <p>Envisioning a modern world with broader needs of information technology, I keep forcing myself to become one of the future contributors. </p>
+            </div>
+
 
             <div class="footer_box">
+                {{-- <div class="skew">
+                </div> --}}
                 <h3>Contact Me</h3>
-                <p>Address</p>
-                <p>Phone</p>
-                <p>Email</p>
-                <p>Instagram</p>
+                <a href="">Address</a>
+                <a href="">Phone</a>
+                <a href="">Email</a>
+                <a href="">Instagram</a>
+                <a href="">Facebook</a>
             </div>
 
             <div class="footer_box">
+                {{-- <div class="skew">
+                </div> --}}
                 <h3>Info</h3>
-                <p>Profile</p>
-                <p>Proficiencies</p>
-                <p>Experience</p>
-                <p>Education</p>
-                <p>More about me</p>
+                <a href="#profiles">Profile</a>
+                <a href="#proficiency">Proficiencies</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#More_About_Me">More about me</a>
             </div>
         </div>
 
