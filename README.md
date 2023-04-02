@@ -8,7 +8,7 @@ In the process of making this website, I implement tools like **laravel** and **
 
 ## What the Website looks like
 
-Here is what the website looks like, which I breakdown into several sections based on the information. **For full page, [click here!](##full-page)**
+Here is what the website looks like, which I breakdown into several sections based on the information. **For full page, [click here!](#full-page)**
 
 **Header**:
 ![Header Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/1.%20header.png)
