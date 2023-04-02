@@ -1,12 +1,12 @@
 # Devin's Profile
 
-🖊️ Description 🖊️
+## Description 🖊️
 
 This is a website that allows me to showcase my personal as well as professional brand. I include my proficiencies such as skills, tools and foreign languages. Besides, you can also find my educational background, projects I have accomplished, and more about me.
 
 In the process of making this website, I implement tools like **laravel** and **bootstrap** to make it more efficient and effective in building an interactive and responsive profile website. The bootstrap I use was installed using **NPM**, a tool in Node.js. In addition to that, I also use the **AOS** library to make my website more appealing by showing some of its eye-catching animation.
 
-## What the Website looks like
+## What the Website looks like 🔎
 
 Here is what the website looks like, which I breakdown into several sections based on the information. **For full page, [click here!](#full-page)**
 
@@ -38,6 +38,8 @@ Here is what the website looks like, which I breakdown into several sections bas
 ![Full Page](https://github.com/devinwong278/My_Profile/blob/main/documentation/full%20page.png)
 
 # Contact
-If you have any questions or encounter a problem, feel free to send messages via email devinwong278@gmail.com. Or alternatively you can also check my social media in my Github Profile.
+If you have any questions or encounter a problem, feel free to send messages via email:
+📧 devinwong278@gmail.com. 
+Or alternatively, you can also check my social media in my Github Profile.
 
 # Thanks for your attention!
