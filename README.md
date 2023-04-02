@@ -6,9 +6,9 @@ This is a website that allows me to showcase my personal as well as professional
 
 In the process of making this website, I implement tools like **laravel** and **bootstrap** to make it more efficient and effective in building an interactive and responsive profile website. The bootstrap I use was installed using **NPM**, a tool in Node.js. In addition to that, I also use the **AOS** library to make my website more appealing by showing some of its eye-catching animation.
 
-# What the Website looks like
+## What the Website looks like
 
-Here is what the website looks like, which I breakdown into several sections based on the information. **For full page, [click here!](#full-page)**
+Here is what the website looks like, which I breakdown into several sections based on the information. **For full page, [click here!](##full-page)**
 
 **Header**:
 ![Header Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/1.%20header.png)
@@ -34,7 +34,7 @@ Here is what the website looks like, which I breakdown into several sections bas
 **Footer**:
 ![Footer Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/8.%20Footer.png)
 
-# Full Page:
+## Full Page:
 ![Full Page](https://github.com/devinwong278/My_Profile/blob/main/documentation/full%20page.png)
 
 # Contact
