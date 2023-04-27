@@ -1,6 +1,6 @@
 # Devin's Profile
 
-## Descriptin 🖊️
+## Description 🖊️
 
 This is a website that allows me to showcase my personal as well as professional brand. I include my proficiencies such as skills, tools and foreign languages. Besides, you can also find my educational background, projects I have accomplished, and more about me.
 
