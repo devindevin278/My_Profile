@@ -24,7 +24,7 @@
         <a class="nav-link" href="/#More_About_Me">Contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="/blog">Personal Blog</a>
+        <a class="nav-link {{ Request::is('blog*') ? 'active' : '' }}" href="/blog">Personal Blog</a>
       </li>
     </ul>
 

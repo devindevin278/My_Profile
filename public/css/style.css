@@ -613,6 +613,54 @@ span.carousel-control-next-icon {
     right: 0;
 }
 
+/* blog start */
+
+.blog_intro {
+    height: 30rem;
+    /* background-color: #0B2447; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn.btn-primary.blog_start {
+    background-color: #19376D;
+}
+.btn.btn-primary.blog_start:hover {
+    opacity: 90%;
+}
+
+.blog_box:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 2.5px 2.5px 10px 2px #696969;
+}
+
+.card.blog_box .card-body {
+    padding: 0;
+}
+
+.blog_crop {
+    height: 11rem;
+    overflow: hidden;
+}
+
+.card-text.blog {
+    background-color: black;
+    opacity: 70%;
+    padding-left: 1rem;
+}
+
+.btn.btn-primary.blog_read {
+    background-color: #19376D;
+    margin-left: .5rem;
+    margin-bottom: 1rem;
+}
+
+
+/* blog end */
+
 .footer_text {
     display: flex;
     /* background-color: #19376D; */
