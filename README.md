@@ -8,9 +8,17 @@ In the process of making this website, I implement tools like **laravel** and **
 
 ## What the Website looks like 🔎
 
-Here is what the website looks like, which I breakdown into several sections based on the information. **For full page, [click here!](#full-page)**
+Here is what the website looks like, which I breakdown into several sections based on the information:
 
-**Header**:
+**[Profile](#profile)**
+
+**[Blogs](#blogs)**
+
+**[Blog detail](#blog-detail)**
+
+**For full page, [click here!](#full-page)**
+
+### Profile:
 ![Header Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/1.%20header.png)
 
 **Proficiency**:
@@ -32,9 +40,15 @@ Here is what the website looks like, which I breakdown into several sections bas
 ![More Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/7.%20More.png)
 
 **Footer**:
-![Footer Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/8.%20Footer.png)
+![Footer Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/10.%20Footer.png)
 
-## Full Page:
+### Blogs:
+![Blogs Page](https://github.com/devinwong278/My_Profile/blob/main/documentation/8.%20Blogs.png)
+
+### Blog Detail:
+![Blogs Page](https://github.com/devinwong278/My_Profile/blob/main/documentation/9.%20Blog_detail.png)
+
+### Full Page:
 ![Full Page](https://github.com/devinwong278/My_Profile/blob/main/documentation/full%20page.png)
 
 # Contact
