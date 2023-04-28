@@ -15,7 +15,7 @@
 
 
 
-    <div  class="container blog my-5">
+    <div  class="container blog my-5" data-aos="fade-up" data-aos-duration="1000">
         <div class="row">
             @foreach ($blogs as $blog)
 
@@ -33,7 +33,7 @@
                     #00ffe6
 
                     @endif">
-                      <h5 class="card-title text-black ps-3 fs-4 pt-1 mt-3">{{ $blog->title }}</h5>
+                      <h5 class="card-title blog_title text-center text-black px-2 fs-4 pt-1">{{ $blog->title }}</h5>
                       <h5 class="card-text blog py-1 fs-6">{{ $blog->category }}</h5>
                       {{-- <p class="card-text"></p> --}}
                       <a href="/blog/{{ $blog->slug }}" class="btn btn-primary blog_read">Read more..</a>
