@@ -16,7 +16,12 @@ Here is what the website looks like, which I breakdown into several sections bas
 
 **[Blog detail](#blog-detail)**
 
+**For demo of the website, [click here!](#demo)**
+
 **For full page, [click here!](#full-page)**
+
+### Demo:
+![Demo GIF]()
 
 ### Profile:
 ![Header Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/1.%20header.png)

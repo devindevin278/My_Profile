@@ -200,7 +200,7 @@
                 <img src="{{ asset('asset/jantung-removebg.png') }}" alt="">
                 <h5>Heart Disease Predictor</h5>
             </button>
-            <button data-aos="fade-left" data-aos-duration="2000" data-aos-offset="200" class="project_box" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+            <button data-aos="fade-left" data-aos-duration="2000" class="project_box" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
                 <img src="{{ asset('asset/project_heroin2-removebg.png') }}" alt="">
                 <h5>HeroIn</h5>
             </button>
@@ -353,7 +353,7 @@
 
     <section id="More_About_Me" class="container-fluid">
         <div class="container" id="more_dalam">
-            <div class="more_box" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="600">
+            <div class="more_box" data-aos="fade-right" data-aos-duration="2000">
                 <h2>More About Me</h2>
                 <div class="line"></div>
                 <div class="social">
