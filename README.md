@@ -21,7 +21,7 @@ Here is what the website looks like, which I breakdown into several sections bas
 **For full page, [click here!](#full-page)**
 
 ### Demo:
-![Demo GIF]()
+![Demo GIF](https://github.com/devindevin278/My_Profile/blob/main/documentation/demo.gif)
 
 ### Profile:
 ![Header Section](https://github.com/devinwong278/My_Profile/blob/main/documentation/1.%20header.png)
